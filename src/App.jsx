@@ -1,7 +1,10 @@
-import './App.css'
+import { Cabecalho } from './components'
 
-const App = () => {
-  <p>Hello World!</p>
-}
+const App = () => (
+  <>
+    <h1>Hello World!</h1>
+    <Cabecalho />
+  </>
+)
 
-export default App
+export { App }
